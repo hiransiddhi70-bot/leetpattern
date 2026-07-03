@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>LeetPattern | Master Coding Patterns</title>
+
+  <meta name="description" content="Master LeetCode interview patterns using interactive flashcards.">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="bg-animation">
+  <span class="blob b1"></span>
+  <span class="blob b2"></span>
+  <span class="blob b3"></span>
+  <span class="blob b4"></span>
+</div>
+
+<header>
+
+<nav class="navbar">
+
+<div class="logo">
+
+🧠 <span>LeetPattern</span>
+
+</div>
+
+<div class="nav-actions">
+
+<button id="randomBtn">
+🎲 Random
+</button>
+
+<button id="themeBtn">
+🌙
+</button>
+
+</div>
+
+</nav>
+
+<section class="hero">
+
+<h1>
+Master Coding Patterns,
+<span>Not Just Problems.</span>
+</h1>
+
+<p>
+Prepare smarter for coding interviews with interactive
+LeetCode flashcards, Python templates and interview tricks.
+</p>
+
+<div class="hero-buttons">
+
+<button class="primary-btn">
+🚀 Start Learning
+</button>
+
+<button class="secondary-btn">
+⭐ Explore Patterns
+</button>
+
+</div>
+
+<div class="stats">
+
+<div class="stat-card">
+<h2>50+</h2>
+<p>Patterns</p>
+</div>
+
+<div class="stat-card">
+<h2>10+</h2>
+<p>Categories</p>
+</div>
+
+<div class="stat-card">
+<h2>FAANG</h2>
+<p>Ready</p>
+</div>
+
+</div>
+
+</section>
+
+</header>
+
+<main>
+
+<section class="controls">
+
+<input
+id="searchInput"
+type="text"
+placeholder="🔍 Search Patterns..."
+>
+
+<div id="filters" class="filters">
+
+<button class="active">
+All
+</button>
+
+<button>
+Arrays
+</button>
+
+<button>
+DP
+</button>
+
+<button>
+Graphs
+</button>
+
+<button>
+Trees
+</button>
+
+<button>
+Stack
+</button>
+
+<button>
+Heap
+</button>
+
+<button>
+Greedy
+</button>
+
+<button>
+Backtracking
+</button>
+
+<button>
+Binary Search
+</button>
+
+<button>
+Sliding Window
+</button>
+
+<button>
+Two Pointers
+</button>
+
+</div>
+
+</section>
+  <!-- ================= FLASHCARD SECTION ================= -->
+
+<section class="top-bar">
+
+    <h2>🚀 LeetCode Pattern Flashcards</h2>
+
+    <div class="top-actions">
+
+        <button id="favBtn">
+            ❤️ Favorites
+        </button>
+
+        <button id="progressBtn">
+            📊 Progress
+        </button>
+
+    </div>
+
+</section>
+
+
+<section class="progress-section">
+
+    <div class="progress-info">
+
+        <span>Learning Progress</span>
+
+        <span id="progressText">
+            0 / 50 Completed
+        </span>
+
+    </div>
+
+    <div class="progress-bar">
+
+        <div id="progressFill"></div>
+
+    </div>
+
+</section>
+
+
+<section id="cardsContainer" class="cards-grid">
+
+    <!-- Flashcards will come from cards.js -->
+
+</section>
+
+
+<section class="loading-section" id="loading">
+
+    <div class="loader"></div>
+
+    <p>Loading Flashcards...</p>
+
+</section>
+
+
+<section class="features">
+
+    <div class="feature-card">
+        🎴
+        <h3>50+ Patterns</h3>
+        <p>Most asked coding interview patterns.</p>
+    </div>
+
+    <div class="feature-card">
+        🐍
+        <h3>Python Templates</h3>
+        <p>Quick reusable coding templates.</p>
+    </div>
+
+    <div class="feature-card">
+        💡
+        <h3>Interview Tricks</h3>
+        <p>Easy one-line solving hacks.</p>
+    </div>
+
+    <div class="feature-card">
+        ⚡
+        <h3>Fast Revision</h3>
+        <p>Revise all important concepts quickly.</p>
+    </div>
+
+</section>
+
+
+<footer>
+
+    <h2>🧠 LeetPattern</h2>
+
+    <p>
+        Master Coding Patterns, Not Just Problems.
+    </p>
+
+    <p class="footer-small">
+
+        Built with ❤️ using HTML, CSS & JavaScript
+
+    </p>
+
+</footer>
+
+
+<script src="cards.js"></script>
+<script src="script.js"></script>
+
+</main>
+
+</body>
+
+</html>
